@@ -1,0 +1,33 @@
+$theme-colors: (
+  "primary": #4d96ff,
+  "secondary": #8d8daa,
+  "success": #6bcb77,
+  "danger": #ff6b6b,
+  "warning": #ffd93d,
+  "info": #292c6d,
+  "dark": #272727,
+  "light": #d6e5fa,
+
+  "semiLight": #dfe8f5,
+  "fontColor": #949494,
+);
+
+$white: #fff;
+$black: #272727;
+$enable-gradients: true;
+
+$input-color: $black;
+$cyan: rgb(51, 92, 103);
+$table-bg-level: -20;
+$enable-shadows: true;
+$enable-responsive-font-sizes: true;
+
+$enable-caret: true;
+$enable-rounded: true;
+$enable-transitions: true;
+$enable-prefers-reduced-motion-media-query: true;
+$enable-grid-classes: true;
+$enable-print-styles: true;
+$enable-validation-icons: true;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

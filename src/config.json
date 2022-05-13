@@ -1,0 +1,50 @@
+{
+  "stores": [
+    {
+      "name": "Reliance Mall",
+      "queue": "10",
+      "description": "Reliance mall is specialized in delivering good quality products, including groceries, kitchen appliances and daily house hold items",
+      "src": "./assets/dmart.png",
+      "products": [
+        { "name": "Eggs", "price": "200", "discount": "20", "qty": 1 },
+        {
+          "name": "Chicken Breast",
+          "price": "150",
+          "discount": "10",
+          "qty": 1
+        },
+        { "name": "Milk", "price": "100", "discount": "15", "qty": 1 }
+      ],
+      "zip": "415110",
+      "slots": ["9.30 - 12.30", "12.30 - 3.30", "3.30 - 6.30"]
+    },
+
+    {
+      "name": "DMart",
+      "queue": "12",
+      "description": "All Your Daily Needs under one hood",
+      "src": "./assets/dmart.png",
+      "products": [
+        { "name": "Almonds", "price": "20", "discount": "2", "qty": 1 },
+        { "name": "Dairy Milk", "price": "10", "discount": "0", "qty": 1 },
+        { "name": "Nachos", "price": "100", "discount": "15", "qty": 1 }
+      ],
+      "zip": "415111",
+      "slots": ["9.30 - 12.30", "12.30 - 3.30", "3.30 - 6.30"]
+    },
+
+    {
+      "name": "Walmart",
+      "queue": "7",
+      "description": "One stop destination for all  your needs, now accepting online orders",
+      "src": "./assets/dmart.png",
+      "products": [
+        { "name": "Sofa", "price": "2000", "discount": "100", "qty": 1 },
+        { "name": "Mayonese", "price": "10", "discount": "5", "qty": 1 },
+        { "name": "Milk", "price": "100", "discount": "20", "qty": 1 }
+      ],
+      "zip": "415112",
+      "slots": ["9.30 - 12.30", "12.30 - 3.30", "3.30 - 6.30"]
+    }
+  ]
+}
